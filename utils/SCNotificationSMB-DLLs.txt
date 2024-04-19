@@ -1,0 +1,46 @@
+PS C:\Windows\system32> C:\Users\sccmclientpush\Desktop\Tools\Get-SCNotificationDlls.ps1
+Process: SCNotification (ID: 3724)
+	Process Path: C:\Users\sccmclientpush\Desktop\Tools\SCNotification.exe
+	Assembly: C:\Users\sccmclientpush\Desktop\Tools\SCNotification.exe
+	Assembly: C:\Windows\SYSTEM32\ntdll.dll
+	Assembly: C:\Windows\SYSTEM32\MSCOREE.DLL
+	Assembly: C:\Windows\System32\KERNEL32.dll
+	Assembly: C:\Windows\System32\KERNELBASE.dll
+	Assembly: C:\Windows\System32\ADVAPI32.dll
+	Assembly: C:\Windows\System32\msvcrt.dll
+	Assembly: C:\Windows\System32\sechost.dll
+	Assembly: C:\Windows\System32\RPCRT4.dll
+	Assembly: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+	Assembly: C:\Windows\System32\SHLWAPI.dll
+	Assembly: C:\Windows\SYSTEM32\kernel.appcore.dll
+	Assembly: C:\Windows\SYSTEM32\VERSION.dll
+	Assembly: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+	Assembly: C:\Windows\System32\USER32.dll
+	Assembly: C:\Windows\System32\win32u.dll
+	Assembly: C:\Windows\System32\GDI32.dll
+	Assembly: C:\Windows\System32\gdi32full.dll
+	Assembly: C:\Windows\System32\msvcp_win.dll
+	Assembly: C:\Windows\System32\ucrtbase.dll
+	Assembly: C:\Windows\SYSTEM32\VCRUNTIME140_CLR0400.dll
+	Assembly: C:\Windows\SYSTEM32\ucrtbase_clr0400.dll
+	Assembly: C:\Windows\System32\IMM32.DLL
+	Assembly: C:\Windows\System32\psapi.dll
+	Assembly: C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\4bc5e5252873c08797895d5b6fe6ddfd\mscorlib.ni.dll
+	Assembly: C:\Windows\System32\ole32.dll
+	Assembly: C:\Windows\System32\combase.dll
+	Assembly: C:\Windows\System32\bcryptPrimitives.dll
+	Assembly: C:\Windows\system32\uxtheme.dll
+	Assembly: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+	Assembly: C:\Windows\assembly\NativeImages_v4.0.30319_64\System\67fa5133f5ad6ab200b2f6f043287ddc\System.ni.dll
+	Assembly: C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Drawing\558a81ec58d6336a3ad38ca9b4cc48a9\System.Drawing.ni.dll
+	Assembly: C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Windows.Forms\59e87e66fdffa463b4154d025a9d7e02\System.Windows.Forms.n
+i.dll
+	Assembly: C:\Windows\System32\TextShaping.dll
+	Assembly: C:\Windows\System32\MSCTF.dll
+	Assembly: C:\Windows\SYSTEM32\textinputframework.dll
+	Assembly: C:\Windows\System32\OLEAUT32.dll
+	Assembly: C:\Windows\SYSTEM32\CoreMessaging.dll
+	Assembly: C:\Windows\SYSTEM32\CoreUIComponents.dll
+	Assembly: C:\Windows\System32\SHCORE.dll
+	Assembly: C:\Windows\System32\ws2_32.DLL
+	Assembly: C:\Windows\system32\mswsock.dll

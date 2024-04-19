@@ -1,0 +1,22 @@
+$uri = 'http://10.9.253.10:8000/upload'
+$filePath = 'C:\Users\sccmclientpush\Desktop\Sysinternal\coerce_run1.pml'
+$fileContent = Get-Content $filePath -Raw
+$fileBytes = [System.IO.File]::ReadAllBytes($filePath)
+$fileName = [System.IO.Path]::GetFileName($filePath)
+
+$boundary = [System.Guid]::NewGuid().ToString()
+$LF = "`r`n"
+
+$enc = [System.Text.Encoding]::GetEncoding('iso-8859-1')
+$bodyLines = (
+    "--$boundary",
+    "Content-Disposition: form-data; name=`"file`"; filename=`"$fileName`"",
+    "Content-Type: application/octet-stream$LF",
+    $enc.GetString($fileBytes),
+    "--$boundary--$LF"
+) -join $LF
+
+$session = [Microsoft.PowerShell.Commands.WebRequestSession]::new()
+$session.Headers.Add("Content-Type", "multipart/form-data; boundary=$boundary")
+
+Invoke-RestMethod -Uri $uri -Method Post -Body $bodyLines -ContentType "multipart/form-data; boundary=$boundary" -WebSession $session
